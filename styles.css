@@ -1,7 +1,15 @@
+body{
+    margin: 0px
+}
+
 .navegador{
     display: flex;
     justify-content: space-between;
     padding: 24px;
+
+    margin: 0px;
+    
+    background: #372515;
 }
 
 .navegador-paginas{
@@ -14,15 +22,67 @@
     text-transform: uppercase;
 }
 
+.navegador > .navegador-derecha > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
 .navegador-paginas-enlace{
+    font-family: Pontano Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
 
 .navegador-paginas-enlace a{
-    color: #8a8a8a;
+    color: #ede6e6;
     text-decoration: none;
     transition: color 0.5s;
+}
+
+.navegador-paginas-enlace:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.navegador-paginas-enlace a:hover{
+    color: #FFFFFF;
+}
+
+.navegador-derecha-enlace{
+    font-family: Pontano Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
 
 }
+
+.navegador-derecha-enlace a{
+    color: #ede6e6;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navegador-derecha-enlace:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.navegador-derecha-enlace a:hover{
+    color: #FFFFFF;
+}
+
+
+
