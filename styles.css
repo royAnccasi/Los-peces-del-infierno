@@ -30,7 +30,7 @@ img {
 
 .portfolio-items-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio-item-wrapper {
@@ -93,4 +93,10 @@ img {
 
 .profile-content-wrapper h1 {
   color: lightseagreen;
+}
+
+.alinear{
+  display: flexbox !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
